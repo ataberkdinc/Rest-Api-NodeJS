@@ -15,5 +15,6 @@ app.get("/", (req, res) => {
 })
 
 const PORT = process.env.PORT || 3004
-app.listen(3004, () => {
+app.listen(PORT, () => {
+    
 })
