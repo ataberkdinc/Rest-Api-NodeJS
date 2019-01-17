@@ -14,5 +14,6 @@ app.get("/", (req, res) => {
     res.send("Bu bir REST API'dir - Ataberk Dinç tarafından oluşturuldu.")
 })
 
+const PORT = process.env.PORT || 3004
 app.listen(3004, () => {
 })
